@@ -19,7 +19,7 @@ f(5, 1) + f(5, 3) + f(5, 5) =
 A = [1, 3, 5]
 
 def cntBits(A):
-
+    
     if len(A) == 0: return 0
 
     sum = 0
