@@ -49,13 +49,23 @@ For this problem, return the maximum sum.
 
 A = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
-
 def max_subarray_sum(A):
-    ans, sum = A[0], 0
+
+	# Set ans to the first element, handles situation when all are negative
+    ans = A[0]
+
+    # Because the value will be added to this, it is 0, not MAX_INT or MIN_INT
+    sum = 0
 
     for val in A:
+
+    	# Add the value to the current sum
         sum += val
+
+        # If the sum is greater than the max, record the sum as ans
         if sum > ans: ans = sum
+
+        # If the sum ever drops below 0, reset the sum to 0. Allows the 
         if sum < 0: sum = 0
 
     return ans

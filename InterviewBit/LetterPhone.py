@@ -31,7 +31,7 @@ class Solution:
         # Depth first search of a string, current index, path, and result
         def dfs(dict, string, index, path, res):
 
-            # If the index is outside the string, start to append result, beginning recursive calls
+            # If the index is outside the string, start to append result
             if index == len(string):
                 res.append(path)
                 return
@@ -47,4 +47,4 @@ class Solution:
         return res
 
 mySolution = Solution()
-print mySolution.letterCombinations("1457")
+print mySolution.letterCombinations("23")
