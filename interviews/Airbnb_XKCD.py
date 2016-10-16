@@ -29,10 +29,12 @@ def findSum(menu, total):
             # When the next item could be added to the order
             if sum + price <= total:
                 # Add the item and call the method again
-                order.append(item)
-                makeOrder(menu, total, sum + price, order)
+                # order.append(item)
+                makeOrder(menu, total, sum + price, order + [item])
+                # when order.append()
+                # makeOrder(menu, total, sum + price, order)
                 # backtracking when the item didn't make the cut
-                order.remove(item)
+                # order.remove(item)
 
     makeOrder(menu, total, 0, [])
     return possible_orders
