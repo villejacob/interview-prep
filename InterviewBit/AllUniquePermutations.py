@@ -35,11 +35,7 @@ class Solution:
                         yield (first_element,) + sub_permutation
 
         # Uses generator to create a returnable list
-        unique_permutations = []
-        for permutation in generate_permutations(A):
-            unique_permutations.append(permutation)
-
-        return unique_permutations
+        return list(generate_permutations(A))
 
 
 A1 = [1, 2, 3]
