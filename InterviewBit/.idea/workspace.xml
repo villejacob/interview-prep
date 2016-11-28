@@ -43,6 +43,7 @@
     <SUITE FILE_PATH="coverage/InterviewBit$GridUniquePaths.coverage" NAME="GridUniquePaths Coverage Results" MODIFIED="1478906884681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InterviewBit$PrettyPrint.coverage" NAME="PrettyPrint Coverage Results" MODIFIED="1474082108118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/InterviewBit$InvertTheBinaryTree.coverage" NAME="InvertTheBinaryTree Coverage Results" MODIFIED="1479266680888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InterviewBit$MergeOverlappingIntervals.coverage" NAME="MergeOverlappingIntervals Coverage Results" MODIFIED="1480367918695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InterviewBit$MergeKSortedLists.coverage" NAME="MergeKSortedLists Coverage Results" MODIFIED="1475447745954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InterviewBit$AddOneToNumber.coverage" NAME="AddOneToNumber Coverage Results" MODIFIED="1473834069376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/InterviewBit$RemoveDuplicatesFromSortedArray.coverage" NAME="RemoveDuplicatesFromSortedArray Coverage Results" MODIFIED="1474415242021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
@@ -68,16 +69,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
               <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+              <folding>
+                <marker date="1480352895000" expanded="true" signature="717:1598" ph="..." />
+                <marker date="1480352895000" expanded="true" signature="880:1598" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeIntervals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MergeIntervals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeIntervals.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MergeIntervals.py">
+      <file leaf-file-name="MergeOverlappingIntervals.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MergeOverlappingIntervals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
+            <state relative-caret-position="1425">
+              <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -138,6 +152,8 @@
         <option value="$PROJECT_DIR$/WordLatterI.py" />
         <option value="$PROJECT_DIR$/.idea/WordLadderI.py" />
         <option value="$PROJECT_DIR$/MergeIntervals.py" />
+        <option value="$PROJECT_DIR$/MergeOverlappingIntervalse.py" />
+        <option value="$PROJECT_DIR$/MergeOverlappingIntervals.py" />
       </list>
     </option>
   </component>
@@ -151,7 +167,7 @@
     <option name="x" value="-1920" />
     <option name="y" value="-258" />
     <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -224,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../interviews/Google" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MergeOverlappingIntervals.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
@@ -233,25 +249,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MergeIntervals">
-    <configuration default="false" name="InvertTheBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InterviewBit" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InvertTheBinaryTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.MergeOverlappingIntervals">
     <configuration default="false" name="CloneGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,6 +318,24 @@
       <module name="InterviewBit" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MergeIntervals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergeOverlappingIntervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InterviewBit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MergeOverlappingIntervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -552,19 +568,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.MaxRectangleInBinaryTree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.InvertTheBinaryTree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CloneGraph" />
-      <item index="3" class="java.lang.String" itemvalue="Python.WordLatterI" />
-      <item index="4" class="java.lang.String" itemvalue="Python.WordLadderI" />
-      <item index="5" class="java.lang.String" itemvalue="Python.MergeIntervals" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CloneGraph" />
+      <item index="2" class="java.lang.String" itemvalue="Python.WordLatterI" />
+      <item index="3" class="java.lang.String" itemvalue="Python.WordLadderI" />
+      <item index="4" class="java.lang.String" itemvalue="Python.MergeIntervals" />
+      <item index="5" class="java.lang.String" itemvalue="Python.MergeOverlappingIntervals" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MergeIntervals" />
-        <item index="1" class="java.lang.String" itemvalue="Python.WordLadderI" />
-        <item index="2" class="java.lang.String" itemvalue="Python.WordLatterI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CloneGraph" />
-        <item index="4" class="java.lang.String" itemvalue="Python.InvertTheBinaryTree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MergeOverlappingIntervals" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MergeIntervals" />
+        <item index="2" class="java.lang.String" itemvalue="Python.WordLadderI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.WordLatterI" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CloneGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +601,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-258" width="1920" height="1054" extended-state="6" />
+    <frame x="-1920" y="-258" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0036458333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -594,7 +610,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25786802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2568251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -624,8 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MaxSumContiguousSubarray.py" />
-    <entry file="file://$PROJECT_DIR$/MaxSumContiguousSubarray.py" />
     <entry file="file://$PROJECT_DIR$/MinStepsInInfiniteGrid.py" />
     <entry file="file://$PROJECT_DIR$/.idea/AddOneToNumber.py" />
     <entry file="file://$PROJECT_DIR$/MaxSumContiguousSubarray.py" />
@@ -756,14 +770,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+          <folding>
+            <marker date="1480352895000" expanded="true" signature="717:1598" ph="..." />
+            <marker date="1480352895000" expanded="true" signature="880:1598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeOverlappingIntervalse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MergeIntervals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
+        <state relative-caret-position="407">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeOverlappingIntervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
           <folding />
         </state>
       </provider>
