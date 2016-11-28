@@ -20,3 +20,5 @@ def excel_column_number_to_name(column_number):
 
     # return output in reverse, because it is calculated from lsb to msb
     return name[::-1]
+
+print excel_column_number_to_name(32)

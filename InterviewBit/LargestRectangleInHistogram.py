@@ -58,8 +58,6 @@ class Solution:
         #  2     2  2  2  2        2     2  4  6  8
         #  1  1  1  1  1  1        1  2  3  4  5  6
         #
-        # The max area is the max value from this array
-
         # if not A:
         #     return 0
         #
