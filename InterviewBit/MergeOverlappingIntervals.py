@@ -102,7 +102,8 @@ class Solution:
 
 interval_list_0 = [Interval(1, 3), Interval(2, 6), Interval(8, 10), Interval(15, 18)]
 # Solution for interval_list_1 is [(1, 10), (11, 20)]
-interval_list_1 = [Interval(1, 10), Interval(2, 9), Interval(3, 8), Interval(4, 7), Interval(5, 6), Interval(6, 6), Interval(11, 20), Interval(3, 2)]
+interval_list_1 = [Interval(1, 10), Interval(2, 9), Interval(3, 8), Interval(4, 7), Interval(5, 6), Interval(6, 6),
+                   Interval(11, 20), Interval(3, 2)]
 soln = Solution()
 ans_list = soln.merge(interval_list_1)
 
