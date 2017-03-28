@@ -15,7 +15,8 @@ def printList(head):
     while current:
         print current.val, "->",
         current = current.next
+    print
 
-list1 = createLinkedList(xrange(1, 6))
-list2 = createLinkedList(xrange(2, 13, 2))
-list3 = createLinkedList(xrange(1, 10))
+list1 = createLinkedList(xrange(1, 9))
+list2 = createLinkedList(xrange(1, 16))
+list3 = createLinkedList(xrange(2, 20, 2))
