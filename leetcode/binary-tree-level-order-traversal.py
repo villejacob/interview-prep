@@ -33,17 +33,15 @@ class Solution(object):
         """
         level_order = []
         q = deque([root])
-        count = 1
         while q:
             level = []
-            for i in xrange(count):
+            for i in xrange(len(q)):
                 n = q.popleft()
                 if n:
                     level.append(n.val)
                     q.append(n.left)
                     q.append(n.right)
             if level: level_order.append(level)
-            count = len(q)
         return level_order
 
 
@@ -64,6 +62,6 @@ r1.right.right.right = TreeNode(8)
 r1.right.right.right.left = TreeNode(9)
 r1.right.right.right.left.right = TreeNode(10)
 
-res = Solution().levelOrder(rr1)
+res = Solution().levelOrder(r1)
 for row in res:
     print row
